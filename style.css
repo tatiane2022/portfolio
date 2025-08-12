@@ -1,0 +1,58 @@
+/* reset simples */
+*{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.6;
+  background:#f9f9f9;
+  color:#333;
+}
+
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+header{
+  background:#0077b6;
+  color:#fff;
+  padding:28px 0;
+  text-align:center;
+}
+
+header h1{font-size:1.8rem;margin-bottom:6px;}
+header h2{font-weight:400;font-size:1rem;margin-bottom:8px;}
+header .links a{color:#ffdd00;text-decoration:none;margin:0 6px;}
+
+section{padding:22px 0;}
+section h2{color:#0077b6;margin-bottom:10px;}
+
+.card{
+  background:#fff;
+  padding:16px;
+  margin-bottom:12px;
+  border-radius:6px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.06);
+}
+
+.card h3{color:#023e8a;margin-bottom:6px;}
+.card span{font-size:0.9rem;color:#666;margin-left:8px;}
+
+.formacao ul{list-style:disc;padding-left:20px;}
+.formacao li{margin-bottom:6px;}
+
+footer{
+  background:#023e8a;
+  color:#fff;
+  padding:12px 0;
+  text-align:center;
+  margin-top:18px;
+}
+
+/* responsivo */
+@media (max-width:600px){
+  header h1{font-size:1.3rem;}
+  header h2{font-size:0.95rem;}
+  .container{width:94%;}
+}
