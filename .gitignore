@@ -1,0 +1,8 @@
+# Ignorar tudo
+*
+
+# Não ignorar os arquivos do portfólio
+!index.html
+!style.css
+!portfolio/
+!portfolio/**
